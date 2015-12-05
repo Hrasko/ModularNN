@@ -1,0 +1,11 @@
+function [ errorOut dev ] = eqm( pred,prev )
+%EQM Summary of this function goes here
+%   Detailed explanation goes here
+e1 = pred-prev;
+err = power(pred - prev,2);
+[n N] = size(err);
+errorOut = sum(err)/n;
+dev = std((OUT-out)/n);
+
+end
+

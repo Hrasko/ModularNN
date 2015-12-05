@@ -1,0 +1,104 @@
+G = [0.33 0.33 0.33]
+
+Erros = 2
+
+
+Coluna 27 e 21
+Os três erram e a classificação foi errada
+
+Coluna 29 os tres erraram
+CLASSIFICAÇÃO CORRETA!
+
+FF = 0.0022
+    0.4945
+    0.5108
+
+DBN = -0.0223
+    0.3285
+    0.6719
+
+alet =  0.7541
+    0.4954
+    0.1285
+
+real = 0
+     1
+     0
+
+Ag = 0.2421
+0.4389
+0.4352
+
+
+Demais erros
+contErros (real,FF)
+
+j =
+
+    21
+
+
+j =
+
+    45
+
+
+ans =
+
+     2
+
+>> contErros (real,DBNFF)
+Undefined function or variable 'DBNFF'.
+ 
+>> contErros (real,FFDBN)
+
+j =
+
+    21
+
+
+j =
+
+    45
+
+
+ans =
+
+     2
+
+>> contErros (real,ELM)
+
+j =
+
+    21
+
+
+j =
+
+    24
+
+
+j =
+
+    45
+
+
+ans =
+
+     3
+
+>> contErros (real,ELMDBN)
+
+j =
+
+    21
+
+
+j =
+
+    24
+
+
+ans =
+
+     2

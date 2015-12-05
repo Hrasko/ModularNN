@@ -1,0 +1,206 @@
+Deep memory log C:\Users\DEPR\Documents\MATLAB\code\datas\MEM.LOG  11/6/15  12:44:57
+12:44:57:707  READDATA: line
+Alloc=86250240:0  131584 bytes  1 allocs  total memory=0 MB
+12:44:57:707  READDATA: database
+Alloc=86381872:0  16384 bytes  2 allocs  total memory=0 MB
+12:44:57:711  READDATA: database
+Realloc=86381872:0 (86381872:0)  32768 bytes  total=0 MB
+12:44:57:717  READDATA: database
+Realloc=86381872:0 (86381872:0)  49152 bytes  total=0 MB
+12:44:57:719  READDATA: database
+Realloc=86381872:0 (86381872:0)  65536 bytes  total=0 MB
+12:44:57:721  READDATA: database
+Realloc=86381872:0 (86381872:0)  81920 bytes  total=0 MB
+Free=86250240:0  1 allocs  total memory=0 MB
+12:45:04:682  ARCHITEC ArchitectureDlg constructor
+12:46:06:797  ARCHITEC ArchitectureDlg destructor
+12:46:11:499  DB_INOUT.CPP InOutDlg constructor
+12:46:22:364  DB_INOUT.CPP InOutDlg destructor
+12:46:25:674  TRAIN TrainParamsRBMDlg constructor
+12:46:34:468  TRAIN TrainParamsRBMDlg destructor
+12:46:39:51  TRAIN TrainParamsSupDlg constructor
+12:46:41:156  TRAIN TrainParamsSupDlg destructor
+12:46:43:242  ARCHITEC ArchitectureDlg constructor
+12:46:44:491  ARCHITEC ArchitectureDlg destructor
+12:46:47:299  WRITE_DATABASE WriteDatabaseDlg constructor
+12:46:49:783  WRITE_DATABASE WriteDatabaseDlg destructor
+12:47:01:926  DB_INOUT.CPP InOutDlg constructor
+12:47:04:986  DB_INOUT.CPP InOutDlg destructor
+12:47:08:65  DB_INOUT.CPP InOutDlg constructor
+12:47:11:974  DB_INOUT.CPP InOutDlg destructor
+12:47:18:112  TRAIN AdvancedDlg constructor
+12:47:19:297  TRAIN AdvancedDlg destructor
+12:47:22:58  TRAIN TrainParamsRBMDlg constructor
+12:47:23:329  TRAIN TrainParamsRBMDlg destructor
+12:47:25:202  TRAIN TrainParamsRBMDlg constructor
+12:47:26:679  TRAIN TrainParamsRBMDlg destructor
+12:47:29:836  TRAIN.CPP: train() starting
+Alloc=86250240:0  16 bytes  2 allocs  total memory=0 MB
+12:47:29:911  Model constructor
+12:47:29:911  omitted
+Alloc=86250304:0  8 bytes  3 allocs  total memory=0 MB
+12:47:29:912  targets
+Alloc=86250352:0  39992 bytes  4 allocs  total memory=0 MB
+12:47:29:912  pred
+Alloc=86290384:0  39992 bytes  5 allocs  total memory=0 MB
+12:47:29:912  rwork
+Alloc=86463840:0  79984 bytes  6 allocs  total memory=0 MB
+12:47:29:912  outputs
+Alloc=86330416:0  39992 bytes  7 allocs  total memory=0 MB
+12:47:29:912  thresh
+Alloc=86370448:0  48 bytes  8 allocs  total memory=0 MB
+12:47:29:912  in_mean
+Alloc=86370544:0  16 bytes  9 allocs  total memory=0 MB
+12:47:29:912  in_min
+Alloc=86370608:0  16 bytes  10 allocs  total memory=0 MB
+12:47:29:913  UnsupSup constructor
+12:47:29:913  shuffle_ndx
+Alloc=86543872:0  19996 bytes  11 allocs  total memory=0 MB
+12:47:29:913  tmp_inputs
+Alloc=86563920:0  399920 bytes  12 allocs  total memory=0 MB
+12:47:29:913  prior_layer
+Alloc=86370672:0  2560 bytes  13 allocs  total memory=0 MB
+12:47:29:913  RBM work vectors
+Alloc=86963888:0  15360 bytes  14 allocs  total memory=0 MB
+12:47:29:913  rbm_skew_work
+Alloc=86373280:0  400 bytes  15 allocs  total memory=0 MB
+12:47:29:913  rbm_work_mat1
+Alloc=86979296:0  12800 bytes  16 allocs  total memory=0 MB
+12:47:29:913  rbm_work_mat2
+Alloc=86373728:0  800 bytes  17 allocs  total memory=0 MB
+12:47:29:913  rbm_work_mat3
+Alloc=86374576:0  800 bytes  18 allocs  total memory=0 MB
+12:47:29:914  Work vectors
+Alloc=86375424:0  1280 bytes  19 allocs  total memory=0 MB
+12:47:29:914  wts
+Alloc=86376752:0  2904 bytes  20 allocs  total memory=0 MB
+12:47:29:914  in_bias, hid_bias, Qmean, Qskew
+Alloc=86379696:0  1360 bytes  21 allocs  total memory=0 MB
+Alloc=86992144:0  1360 bytes  22 allocs  total memory=0 MB
+Alloc=86381104:0  160 bytes  23 allocs  total memory=0 MB
+Alloc=86381312:0  160 bytes  24 allocs  total memory=0 MB
+12:47:29:914  unsup weights
+Alloc=86993552:0  1280 bytes  25 allocs  total memory=0 MB
+Alloc=86381520:0  160 bytes  26 allocs  total memory=0 MB
+Alloc=86994880:0  12800 bytes  27 allocs  total memory=0 MB
+Alloc=87007728:0  880 bytes  28 allocs  total memory=0 MB
+12:47:29:914  final layer weights
+Alloc=86381728:0  88 bytes  29 allocs  total memory=0 MB
+12:47:29:915  hid_act
+Alloc=87008656:0  1280 bytes  30 allocs  total memory=0 MB
+12:47:29:915  hid_act
+Alloc=87009984:0  1280 bytes  31 allocs  total memory=0 MB
+12:47:29:917  PROG_STAGE make_progress_stage_window () starting
+12:47:30:101  PROG_STAGE make_progress_stage_window () ending
+12:47:30:101  TRAIN_US: UnsupSup::train() starting
+12:47:30:174  
+12:47:30:174  ----------------------------------
+12:47:30:174  Training RBM for layer 0 to 1
+12:47:30:390  PROG_RBM_INIT: make_progress_rbm_init_window
+Alloc=87011312:0  800 bytes  32 allocs  total memory=0 MB
+12:47:38:350  PROG_RBM_INIT: destroy_progress_rbm_init_window
+Free=87011312:0  31 allocs  total memory=0 MB
+12:47:38:473  PROG_RBM_TRN: make_progress_rbm_trn_window
+Alloc=38207632:0  480000 bytes  32 allocs  total memory=1 MB
+12:47:51:214  PROG_RBM_TRN: destroy_progress_rbm_trn_window
+Free=38207632:0  31 allocs  total memory=0 MB
+12:47:51:454  
+12:47:51:455  ----------------------------------
+12:47:51:455  Training RBM for layer 1 to 2
+12:47:51:458  PROG_RBM_INIT: make_progress_rbm_init_window
+Alloc=87011312:0  800 bytes  32 allocs  total memory=0 MB
+12:47:52:73  PROG_RBM_INIT: destroy_progress_rbm_init_window
+Free=87011312:0  31 allocs  total memory=0 MB
+12:47:52:87  PROG_RBM_TRN: make_progress_rbm_trn_window
+Alloc=38207632:0  480000 bytes  32 allocs  total memory=1 MB
+12:48:07:920  PROG_RBM_TRN: destroy_progress_rbm_trn_window
+Free=38207632:0  31 allocs  total memory=0 MB
+12:48:08:89  Pooling weights into 'all' model
+12:48:08:103  Pooling complete
+12:48:08:103  TRAIN_US: UnsupSup::train() returning
+Free=86250240:0  30 allocs  total memory=0 MB
+12:48:08:146  PROG_STAGE destroy_progress_stage_window () starting
+12:48:08:146  PROG_STAGE destroy_progress_stage_window () destroyed window
+12:48:08:146  TRAIN.CPP: train() ending
+12:48:43:410  CLEAR
+Free=86381872:0  29 allocs  total memory=0 MB
+12:48:55:15  S_SIMPLE.CPP read_series_simple() starting
+12:48:55:15  S_SIMPLE SeriesSimpleDlg constructor
+12:49:20:868  S_SIMPLE: line, window
+Alloc=86381872:0  4096 bytes  30 allocs  total memory=0 MB
+Alloc=86386016:0  96 bytes  31 allocs  total memory=0 MB
+Free=86381872:0  30 allocs  total memory=0 MB
+Free=86386016:0  29 allocs  total memory=0 MB
+12:49:20:886  S_SIMPLE SeriesSimpleDlg destructor
+12:49:32:370  S_SIMPLE.CPP read_series_simple() starting
+12:49:32:370  S_SIMPLE SeriesSimpleDlg constructor
+12:49:33:560  S_SIMPLE: line, window
+Alloc=86381872:0  4096 bytes  30 allocs  total memory=0 MB
+Alloc=86386016:0  96 bytes  31 allocs  total memory=0 MB
+Free=86381872:0  30 allocs  total memory=0 MB
+Free=86386016:0  29 allocs  total memory=0 MB
+12:49:33:577  S_SIMPLE SeriesSimpleDlg destructor
+15:35:38:855  WM_CLOSE
+15:35:38:855  WM_CLOSE passed
+15:35:38:855  Final cleanup
+15:35:38:855  UnsupSup destructor
+15:35:38:855  shuffle_ndx
+Free=86543872:0  28 allocs  total memory=0 MB
+15:35:38:855  tmp_inputs
+Free=86563920:0  27 allocs  total memory=0 MB
+15:35:38:855  prior_layer
+Free=86370672:0  26 allocs  total memory=0 MB
+15:35:38:855  rbm_work_vec1
+Free=86963888:0  25 allocs  total memory=0 MB
+15:35:38:855  rbm_skew_work
+Free=86373280:0  24 allocs  total memory=0 MB
+15:35:38:855  rbm_work_mat1
+Free=86979296:0  23 allocs  total memory=0 MB
+15:35:38:855  rbm_work_mat2
+Free=86373728:0  22 allocs  total memory=0 MB
+15:35:38:855  rbm_work_mat3
+Free=86374576:0  21 allocs  total memory=0 MB
+15:35:38:855  wts
+Free=86376752:0  20 allocs  total memory=0 MB
+15:35:38:855  in_bias
+Free=86379696:0  19 allocs  total memory=0 MB
+15:35:38:855  hid_bias
+Free=86992144:0  18 allocs  total memory=0 MB
+15:35:38:855  Qmean
+Free=86381104:0  17 allocs  total memory=0 MB
+15:35:38:855  Qskew
+Free=86381312:0  16 allocs  total memory=0 MB
+15:35:38:855  layer_work_vec1
+Free=86375424:0  15 allocs  total memory=0 MB
+15:35:38:855  unsup weights
+Free=86993552:0  14 allocs  total memory=0 MB
+15:35:38:855  unsup all
+Free=86381520:0  13 allocs  total memory=0 MB
+15:35:38:855  unsup hid_act
+Free=87008656:0  12 allocs  total memory=0 MB
+15:35:38:855  unsup weights
+Free=86994880:0  11 allocs  total memory=0 MB
+15:35:38:855  unsup all
+Free=87007728:0  10 allocs  total memory=0 MB
+15:35:38:855  unsup hid_act
+Free=87009984:0  9 allocs  total memory=0 MB
+15:35:38:855  final layer weights
+Free=86381728:0  8 allocs  total memory=0 MB
+15:35:38:855  Model destructor
+15:35:38:855  omitted
+Free=86250304:0  7 allocs  total memory=0 MB
+15:35:38:855  targets
+Free=86250352:0  6 allocs  total memory=0 MB
+15:35:38:855  rwork1
+Free=86463840:0  5 allocs  total memory=0 MB
+15:35:38:855  outputs
+Free=86330416:0  4 allocs  total memory=0 MB
+15:35:38:855  pred
+Free=86290384:0  3 allocs  total memory=0 MB
+15:35:38:855  thresh
+Free=86370448:0  2 allocs  total memory=0 MB
+15:35:38:855  in_mean
+Free=86370544:0  1 allocs  total memory=0 MB
+15:35:38:855  in_min
+Free=86370608:0  0 allocs  total memory=0 MB
+Max memory use=1 MB  Dangling allocs=0
