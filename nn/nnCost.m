@@ -32,23 +32,24 @@ fullPrev = [inPrev outPrev];
 num = size(full,1);
 numPrev = size(fullPrev,1);
 
+% this "garantees" that the training database is big enough to give a good result
 minDB = size(dbPrev,1);
-%if num <= minDB
-%    errorOut = 10000000;
-%   return;
-%end
+if num <= minDB
+    errorOut = 10000000;
+   return;
+end
 
-%if num <= numPrev
-%    errorOut = 10000000;
-%    nn = 0;
-%   return;
-%end
+if num <= numPrev
+    errorOut = 10000000;
+    nn = 0;
+   return;
+end
    
-%if numPrev <= 0
-%    errorOut = 10000000;
-%    nn = 0;
-%   return;
-%end
+if numPrev <= 0
+    errorOut = 10000000;
+    nn = 0;
+   return;
+end
 
 %shuffle
 idx = randperm(num);

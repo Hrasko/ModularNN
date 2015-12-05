@@ -7,7 +7,7 @@ function [errorOut dnn net]=dbnCost(pos,dbin,saveloc)
     nn2 = round(pos(4));
 
 num = size(dbin,1);
-numPrev = round(num*0.3);
+numPrev = round(num*0.7);
 
 dbPrev = dbin(numPrev:num,:);
 db = dbin(1:numPrev,:);
@@ -32,26 +32,26 @@ fullPrev = [inPrev outPrev];
 num = size(full,1);
 numPrev = size(fullPrev,1);
 
+% this "garantees" that the training database is big enough to give a good result
 minDB = size(dbPrev,1);
+if num <= minDB
+    errorOut = 10000000;
+   return;
+end
 
-%if num <= minDB
-%    errorOut = 10000000;
-%   return;
-%end
-
-%if num <= numPrev
-%    errorOut = 10000000;
-%    dnn = 0;
-%    net = 0;
-%   return;
-%end
+if num <= numPrev
+    errorOut = 10000000;
+    dnn = 0;
+    net = 0;
+   return;
+end
    
-%if numPrev <= 0
-%    errorOut = 10000000;
-%    dnn = 0;
-%    net = 0;
-%   return;
-%end
+if numPrev <= 0
+    errorOut = 10000000;
+    dnn = 0;
+    net = 0;
+   return;
+end
 
 
 %shuffle

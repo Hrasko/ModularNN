@@ -9,7 +9,7 @@ for i=1:size(strPath,2)
     
     if (size(splitStrPath,2) == 9 && strcmp(splitStrPath(7),'resultados'))
         dbName = splitStrPath{9};        
-        saveLoc = strcat('resultados\3070\',dbName,'\');
+        saveLoc = strcat('resultados\7030\',dbName,'\');
         x = load(strcat(dbName,'db.txt'));
         params = load(strcat(dbName,'params.txt'));
         if size(x,2) > 1
